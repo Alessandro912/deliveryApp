@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+   padding: 0px;
+   display: flex;
+   flex-direction: column;
+}
+
+
+.headline img{
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+
+.headline{
+    background-color: orange;
+}
+
+
+.burgerImg img{
+   object-fit: cover;
+    height: 160px;
+  width: 100%;
+
+}
+
+.burgerImg{
+    display: flex;
+    text-align: center;
+    flex: 1;
+}
+
+.basket{
+    display: flex;
+     width: 300px;
+     border: 1px solid black; 
+    height: 40px;
+    }
+
+.content{
+    display: flex;
+}
