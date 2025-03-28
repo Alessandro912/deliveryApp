@@ -64,3 +64,19 @@
     width: 100%;
     object-fit: cover;
 }
+
+.menu {
+    border: 1px solid black;
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    height: 36px;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    border: 0;
+    width: 36px;
+}

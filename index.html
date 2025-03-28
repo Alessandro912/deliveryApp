@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body onload="init()">
 
 
     <header class="headline site_padding">
@@ -23,36 +23,65 @@
     <main class="content">
 
         <div class="main">
-        <section class="burgerImg">
+            <section class="burgerImg">
 
-            <div class="burger_icon">
-                <img class="icon" src="img/Favicon/burger-icon.png" alt="">
+                <div class="burger_icon">
+                    <img class="icon" src="img/Favicon/burger-icon.png" alt="">
+                </div>
+
+
+            </section>
+
+            <div class="head_title site_padding">
+                <h2>Premium Burger</h2>
+                <p>Bewertung (4.5 von 5 sterne)</p>
+            </div>
+            <nav class="navbar site_padding">
+                <a href="">Burger</a>
+                <a href="">Pommes</a>
+                <a href="">Getränke</a>
+            </nav>
+
+
+            <div>
+                <img class="foodImg" src="img/Favicon/hamburger.jpg" alt="">
+                <h2 class="site_padding">Burger</h2>
+
             </div>
 
 
-        </section>
+            <div id="burger-content">
 
-        <div class="head_title site_padding">
-            <h2>Premium Burger</h2>
-            <p>Bewertung (4.5 von 5 sterne)</p>
+            </div>
+
+            <div>
+                <img class="foodImg" src="img/Favicon/pommes.jpg" alt="">
+                <h2 class="site_padding">Pommes</h2>
+
+            </div>
+            
+
+            <div id="pommes-content">
+                  
+            </div>
+
+            <div>
+                <img class="foodImg" src="img/Favicon/drink.jpg" alt="">
+                <h2 class="site_padding">Drinks</h2>
+
+            </div>
+
+            <div id="drinks-content">
+
+            </div>
+
+
+
+
         </div>
-        <nav class="navbar site_padding">
-            <a href="">Burger</a>
-            <a href="">Pommes</a>
-            <a href="">Getränke</a>
-        </nav>    
-        
-        
-        <div>
-            <img class="foodImg" src="img/Favicon/burger-8404116_1280.jpg" alt="">
-               <h2 class="site_padding" >Burger</h2>
-              
-            </div>
-    
-    </div>
-        
-    
-    <section class="basket">
+
+
+        <section class="basket">
             <h2 class="basket_headline">Warenkorb</h2>
             <div id="basketContent" class="basekt_main"></div>
             <div id="basketPrice" class="basket_price"></div>
