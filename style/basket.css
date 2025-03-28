@@ -2,11 +2,15 @@
 
 
 .basket{
-    display: flex;
-     width: 300px;
-     border: 1px solid black; 
-    height: 100vh;
+    display: flex
+    ;
+        width: 300px;
+        border: 1px solid black;
+        height: 100vh;
+        top: 0px;
+        position: sticky;
     }
+
 
     .basket_headline{
         border-bottom: 1px solid black;
@@ -14,3 +18,32 @@
         width: 100%;
         text-align: center;
     }
+
+
+    .basket-content{
+        width: 100%;
+    }
+
+    .basekt_main{
+        height: 500px;
+    }
+
+    .basket-price-list{
+        display: flex;
+        justify-content: center;
+       border-top: 1px solid black;
+      flex-direction: column;
+      align-items: center;
+     gap: 8px; 
+    }
+
+     .btn-basket{
+        width: 100%;
+        border-radius: 23px;
+        height: 44px;
+        background-color: orange;
+        color: white;
+        border: 0;
+        font-size: x-large;
+    }
+     

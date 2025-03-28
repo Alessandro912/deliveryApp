@@ -12,7 +12,7 @@ function burgerTemplate(index, price) {
                         <p>${menu.burger[index].ingrediens} </p>
                         <span>${price}</span>
                     </div>
-                    <button class="btn ">X</button>
+                   <button  onclick="addBasket()" class="btn ">X</button>
                 </div>
 
             </div>`
@@ -31,7 +31,7 @@ function pommesTemplate(index, price) {
                         <h2>${menu.pommes[index].name}</h2>
                          <span>${price}</span>
                     </div>
-                    <button class="btn ">X</button>
+                   <button  onclick="addBasket()" class="btn ">X</button>
                 </div>
 
             </div>`
@@ -49,7 +49,7 @@ function drinksTemplate(index, price) {
                          <h2>${menu.drinks[index].name}</h2>
                         <span>${price}</span>
                     </div>
-                    <button class="btn ">X</button>
+                    <button  onclick="addBasket()" class="btn ">X</button>
                 </div>
 
             </div>`
