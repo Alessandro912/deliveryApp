@@ -1,42 +1,66 @@
-body{
-    margin: 0px;
-   padding: 0px;
-   display: flex;
-   flex-direction: column;
-}
-
-
-.headline img{
+.headline img {
     height: 72px;
     display: flex;
     align-items: center;
 }
 
-.headline{
+.headline {
     background-color: orange;
 }
 
 
-.burgerImg img{
-   object-fit: cover;
-    height: 160px;
-  width: 100%;
 
-}
 
-.burgerImg{
+.burgerImg {
     display: flex;
     text-align: center;
+    background-image: url(img/Favicon/burger-8404116_1280.jpg);
+    background-size: cover;
+    height: 160px;
+    background-position: center;
+    justify-content: center;
+    position: relative;
+}
+
+.burger_icon {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 120px;
+    background-color: #c9c1b0;
+    align-items: center;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+}
+
+.icon {
+    height: 56px;
+}
+
+.content {
+    display: flex;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
     flex: 1;
 }
 
-.basket{
+.navbar {
     display: flex;
-     width: 300px;
-     border: 1px solid black; 
-    height: 40px;
-    }
+    gap: 8px;
+    background-color: #ebe9ca;
+    margin-top: 40px;
+    height: 56px;
+    align-items: center;
+}
 
-.content{
-    display: flex;
+.foodImg {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
 }

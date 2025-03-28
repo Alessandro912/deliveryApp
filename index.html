@@ -5,30 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BestellApp</title>
+    <link rel="stylesheet" href="./style/standart.css">
+    <link rel="stylesheet" href="./style/basket.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fonts.css">
-    
+
+
 </head>
 
 <body>
 
 
-    <header class="headline">
+    <header class="headline site_padding">
         <img src="img/Logo/Logo.png" alt=""></h1>
     </header>
 
-      <main class="content">
+    <main class="content">
 
-      <section class="burgerImg">
-        <img src="img/Favicon/burger-8404116_1280.jpg" alt=""> 
-    </section>
+        <div class="main">
+        <section class="burgerImg">
+
+            <div class="burger_icon">
+                <img class="icon" src="img/Favicon/burger-icon.png" alt="">
+            </div>
 
 
-      <section class="basket">
-        <h2>Warenkorb</h2>
-      </section>
+        </section>
+
+        <div class="head_title site_padding">
+            <h2>Premium Burger</h2>
+            <p>Bewertung (4.5 von 5 sterne)</p>
+        </div>
+        <nav class="navbar site_padding">
+            <a href="">Burger</a>
+            <a href="">Pommes</a>
+            <a href="">Getränke</a>
+        </nav>    
+        
+        
+        <div>
+            <img class="foodImg" src="img/Favicon/burger-8404116_1280.jpg" alt="">
+               <h2 class="site_padding" >Burger</h2>
+              
+            </div>
+    
+    </div>
+        
+    
+    <section class="basket">
+            <h2 class="basket_headline">Warenkorb</h2>
+            <div id="basketContent" class="basekt_main"></div>
+            <div id="basketPrice" class="basket_price"></div>
+
+
+        </section>
 
     </main>
+
+
+
+
 
     <script src="./template.js"></script>
     <script src="./bestell.js"></script>

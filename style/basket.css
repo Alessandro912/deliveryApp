@@ -1,0 +1,16 @@
+
+
+
+.basket{
+    display: flex;
+     width: 300px;
+     border: 1px solid black; 
+    height: 100vh;
+    }
+
+    .basket_headline{
+        border-bottom: 1px solid black;
+        height: 32px;
+        width: 100%;
+        text-align: center;
+    }
